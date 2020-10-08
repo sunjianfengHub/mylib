@@ -1,0 +1,6 @@
+[submodule "lib"]
+	path = lib
+	url = http://106.14.174.112/webframe/demon.git
+[submodule "demon"]
+	path = demon
+	url = https://github.com/sunjianfengHub/demon.git

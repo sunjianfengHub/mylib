@@ -1,0 +1,3 @@
+*
+!mylib/lib/**/*
+!mylib/index.js

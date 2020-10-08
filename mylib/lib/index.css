@@ -1,0 +1,188 @@
+.mylib-areaSelect-container {
+  box-sizing: border-box;
+}
+.mylib-areaSelect-show {
+  display: inline-block;
+}
+.mylib-areaSelect-hidden {
+  display: none;
+}
+.mylib-areaSelect-inlineBlock {
+  display: inline-block;
+}
+.mylib-upfile-layout {
+  width: 100%;
+  padding: 5px;
+}
+.mylib-upfile-fill {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.mylib-upfile-itemBase {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.mylib-upfile-itemBaseFile {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+}
+.mylib-upfile-itemTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+  font-size: 21px;
+  width: 98%;
+  margin: 1%;
+  bottom: 0;
+}
+.mylib-upfile-itemAction {
+  width: 100%;
+  height: 100%;
+  font-size: 21px;
+  color: #ffffff;
+  opacity: 0.6;
+  display: table;
+}
+.mylib-upfile-itemActionCell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.mylib-upfile-itemActionCell:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.mylib-upfile-itemActionCellSee:hover {
+  color: #108ee9;
+}
+.mylib-upfile-itemActionCellDel:hover {
+  color: #ff0000;
+}
+.mylib-upfile-itemTitlePro {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #108ee9;
+  font-size: 14px;
+  display: table;
+}
+.mylib-upfile-itemTitleProCell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+.mylib-upfile-circle {
+  max-height: 100%;
+}
+.mylib-upfile-file {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.mylib-upfile-fileTable {
+  width: 100%;
+  height: 100%;
+  display: table;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  background: #ffffff;
+  border: 1px solid #108ee9;
+  border-radius: 0;
+  overflow: hidden;
+  color: #108ee9;
+  text-decoration: none;
+  text-indent: 0;
+}
+.mylib-upfile-fileTitle {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+.mylib-upfile-fileTable:hover {
+  background: #108ee9;
+  border-color: #108ee9;
+  color: #ffffff;
+  text-decoration: none;
+}
+.mylib-upfile-item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: block;
+  float: left;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+.mylib-layout-item {
+  padding: 10px;
+}
+.mylib-layout-itemRow {
+  display: inline-block;
+}
+.mylib-layout-itemTitle {
+  display: inline-block;
+  color: #000c17;
+  font-size: 14px;
+  padding: 10px;
+}
+.mylib-layout-itemRight {
+  display: inline-block;
+  padding: 10px;
+}
+.mylib-layout-text {
+  word-break: break-all;
+}
+.mylib-modalbase-show {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.mylib-modalbase-btnBox {
+  box-sizing: border-box;
+  border-top: 1px solid #ddd;
+  padding: 20px;
+  text-align: right;
+}
+.mylib-modalbase-btn {
+  margin: 0 10px;
+}
+.mylib-modalconfig-show {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}

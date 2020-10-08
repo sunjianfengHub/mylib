@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FingerPrint TestCase should not change for different import 1`] = `
+Array [
+  "E238E4412DC93CC8EBE26313",
+  "8CD5BA402A80FB5F4BB3C991",
+]
+`;
+
+exports[`FingerPrint TestCase should work with des Properly 1`] = `
+Array [
+  "E238E4412DC93CC8EBE26313",
+  "8CD5BA402A80FB5F4BB3C991",
+]
+`;
